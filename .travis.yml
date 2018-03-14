@@ -7,3 +7,4 @@ env:
 
 script:
  - bash setup.sh
+ 
