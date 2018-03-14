@@ -1,5 +1,8 @@
 {
     "require-dev": {
-        "phpunit/phpunit": "^5"
+        "phpunit/phpunit": "*",
+        "phpmd/phpmd": "*",
+        "squizlabs/php_codesniffer": "*",
+        "satooshi/php-coveralls": "*"
     }
 }
