@@ -1,8 +1,5 @@
 {
     "require-dev": {
         "phpunit/phpunit": "^5.5"
-    },
-    "extra": {
-        "magento-root-dir": "test-root"
     }
 }
