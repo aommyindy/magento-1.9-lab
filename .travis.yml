@@ -4,3 +4,12 @@ php: 5.6
 
 env:
  - MAGENTO_VERSION=magento-mirror-1.9.2.4
+
+ before_install:
+  - mkdir test-root/
+
+install:
+  - composer install --dev
+
+script:
+- vendor/bin/phpunit
